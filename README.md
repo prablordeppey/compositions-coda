@@ -4,5 +4,5 @@ This is an extensive package for compositional data analysis. The various major 
 
 > transforms library
 - Centered Log Ratio (clr)
-- isometric Log Ratio (ilr)
-- additive-log-ratio (alr)
+- Isometric Log Ratio (ilr)
+- Additive Log Ratio (alr)
