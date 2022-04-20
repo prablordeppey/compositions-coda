@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: compositions-coda-prablordeppey
+Version: 0.0.1
+Summary: An extensive package for Compositional Data Analysis (CoDA)
+Home-page: https://github.com/prablordeppey/compositions
+Author: Ablordeppey Prosper
+Author-email: prablordeppey@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/prablordeppey/compositions/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# compositions
+
+This is an extensive package for compositional data analysis. The various major implementations are presented as follows.
+
+> transforms library
+- Centered Log Ratio (clr)
+- Isometric Log Ratio (ilr)
+- Additive Log Ratio (alr)
+
+
