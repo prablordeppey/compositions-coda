@@ -1,14 +1,23 @@
 import numpy as np
 
-
-'''
-references:
+_doc_refs = '''
+References:
 -----------
 	...	Egozcue, J.J., Pawlowsky-Glahn, V., Mateu-Figueras, G. et al.
 		Isometric Logratio Transformations for Compositional Data Analysis.
 		Mathematical Geology 35, 279–300 (2003).
 		https://doi.org/10.1023/A:1023818214614
 '''
+
+def _doc_formatter(*sub):
+	"""
+	elegant doctring formatter
+	"""
+	def dec(obj):
+		obj.__doc__ = obj.__doc__.format(*sub)
+		return obj
+	return dec
+
 
 def helmert(n):
 	"""
@@ -45,7 +54,18 @@ def helmert(n):
 	return main_mat
 
 
+@_doc_formatter(_doc_refs)
 def clr(X):
+	"""
+	Centered Log Ratio transformation of input matrix.
+
+	Args:
+		X (ndarray): (I,J) data matrix.
+
+	Returns:
+		(ndarray): (I,J) transformed matrix
+	{0}
+	"""
 	# row-wise geometric mean
 	r_geo_mean = np.prod(X, axis=1, keepdims=True)**(1/X.shape[1])
 
@@ -55,24 +75,27 @@ def clr(X):
 	return y
 
 
+@_doc_formatter(_doc_refs)
 def clrInv(y):
 	"""
-	inverse function for centrered-log-ratio transformed dataset 
+	inverse Centrered-Log-Ratio transformation function. 
 
 	Args:
 		y (ndarray): (I,J) clr transformed matrix.
 
 	Returns:
 		(ndarray): (I,J) reconstructed X matrix from y.
+	{0}
 	"""
 	# softmax/normalized exponential function
 	X = np.exp(y)/np.sum(np.exp(y), axis=1, keepdims=True)
 	return X
 
 
+@_doc_formatter(_doc_refs)
 def ilr(X):
 	"""
-	(Isometric log-ratio) transformation.
+	Isometric-Log-Ratio (ILR) transformation.
 
 	Args:
 	-----
@@ -81,6 +104,7 @@ def ilr(X):
 	Returns:
 	--------
 		y (ndarray): (I,J-1) ilr transformed data.
+	{0}
 	"""
 	y = np.log(X)
 	y = y - y.mean(axis=1, keepdims=True) # Recentered values
@@ -91,7 +115,18 @@ def ilr(X):
 	return y@H.T
 
 
+@_doc_formatter(_doc_refs)
 def ilrInv(y):
+	"""
+	inverse Isometric-Log-Ratio transformation function
+
+	Args:
+		y (ndarray): (I,J-1) ILR transformed data matrix
+
+	Returns:
+		(ndarray): (I,J) original data matrix
+	{0}
+	"""
 	k = y.shape[1]+1
 
 	H = helmert(k)  # Dimensions k by k-1
@@ -102,9 +137,10 @@ def ilrInv(y):
 	return X
 
 
+@_doc_formatter(_doc_refs)
 def alr(X, ref=-1):
 	"""
-	Additive-Log-Ratio (ALR) implementation.
+	Additive-Log-Ratio (ALR) transfoormation.
 
 	Args:
 	-----
@@ -114,6 +150,7 @@ def alr(X, ref=-1):
 	Returns:
 	--------
 		(ndarray): (I,J-1) transformed matrix.
+	{0}
 	"""
 	
 	if not isinstance(ref, int):
@@ -126,7 +163,7 @@ def alr(X, ref=-1):
 
 def alrInv(y):
 	"""
-	inverse addditive-log-ratio
+	inverse Addditive-Log-Ratio transformation function
 
 	Args:
 	-----
@@ -135,6 +172,7 @@ def alrInv(y):
 	Returns:
 	--------
 		(ndarray): (I,J) reconstructed alr transformed data.
+	{0}
 	"""
 	ref_recon = np.ones(y.shape[0]).reshape(-1,1)
 	X = np.hstack((np.exp(y), ref_recon))/(np.exp(y).sum(axis=1)+1).reshape(-1,1)
