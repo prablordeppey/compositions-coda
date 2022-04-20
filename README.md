@@ -24,6 +24,6 @@ Import ```transforms```:
   
 - Additive Log Ratio (alr)
   - ```transform.alr``` for forward transform $S^D\rightarrow \mathbb{R}^{D-1}$.
-  - ```transform.alrInv``` for inverse transform $\mathbb{R}^{D-1}\rightarrow S^D$.
+  - ```transform.alrInv``` for inverse transform R^D-1 &#8594; S^D.
 
 ## Example
