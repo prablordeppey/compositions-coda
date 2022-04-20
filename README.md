@@ -10,7 +10,7 @@ Various transformation functions along with their inverses have been implemented
 
 ## Usage
 
-Import ```transforms```:
+Import ```transform```:
 
 <pre><code>from compositions import transform</code></pre>
 
@@ -26,4 +26,4 @@ Import ```transforms```:
   - ```transform.alr``` for forward transform S<sup>D</sup> &#8594; R<sup>D-1</sup>.
   - ```transform.alrInv``` for inverse transform R<sup>D-1</sup> &#8594; S<sup>D</sup>.
 
-## Example
+### Example
