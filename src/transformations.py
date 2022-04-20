@@ -161,6 +161,7 @@ def alr(X, ref=-1):
 	return y
 
 
+@_doc_formatter(_doc_refs)
 def alrInv(y):
 	"""
 	inverse Addditive-Log-Ratio transformation function
