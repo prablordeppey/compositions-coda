@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.py
-src/compositions_coda_prablordeppey.egg-info/PKG-INFO
-src/compositions_coda_prablordeppey.egg-info/SOURCES.txt
-src/compositions_coda_prablordeppey.egg-info/dependency_links.txt
-src/compositions_coda_prablordeppey.egg-info/top_level.txt
