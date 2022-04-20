@@ -10,7 +10,9 @@ An extensive package for compositional data analysis. The major implementations 
 
 Import ```transforms```:
 
-	<pre><code>{python} from compositions import transforms</code></pre>
+	<pre><code>from compositions import transforms</code></pre>
+
+	```{python} from compositions import transforms```
 
     - Centered Log Ratio (clr)
     - Isometric Log Ratio (ilr)
