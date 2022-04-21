@@ -14,13 +14,13 @@ Install
 Usage
 -----
 
-1. Transformations:
+1. **Transformations**:
 
 	.. role::  raw-html(raw)
     		:format: html
 		
 	- Centered Log Ratio (clr)
-		- ```transform.clr``` for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
+		- transform.clr** for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
 		- ```transform.clrInv``` for inverse transform R :sup:`D` :raw-html:`&rarr;` S :sup:`D`.
 
 	- Isometric Log Ratio (ilr)
