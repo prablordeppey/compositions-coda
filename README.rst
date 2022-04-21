@@ -20,16 +20,16 @@ Usage
     		:format: html
 		
 	- Centered Log Ratio (clr)
-		- transform.clr** for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
-		- ```transform.clrInv``` for inverse transform R :sup:`D` :raw-html:`&rarr;` S :sup:`D`.
+		- ``transform.clr`` for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
+		- ``transform.clrInv`` for inverse transform R :sup:`D` :raw-html:`&rarr;` S :sup:`D`.
 
 	- Isometric Log Ratio (ilr)
-		- ```transform.ilr``` for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
-		- ```transform.ilrInv``` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
+		- ``transform.ilr`` for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
+		- ``transform.ilrInv`` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
 
 	- Additive Log Ratio (alr)
-		- ```transform.alr``` for forward transform S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
-		- ```transform.alrInv``` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
+		- ``transform.alr`` for forward transform S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
+		- ``transform.alrInv`` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
 
 ### Example
 
