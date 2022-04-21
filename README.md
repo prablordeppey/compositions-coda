@@ -28,4 +28,8 @@ Import ```transform```:
 
 ### Example
 
-``` X ```
+<pre>
+	<code>import numpy as np</code>
+	<code>from compositions import transforms</code>
+	
+</pre>
