@@ -29,7 +29,8 @@ Import ```transform```:
 ### Example
 
 <pre>
-	<code>import numpy as np</code>
-	<code>from compositions import transforms</code>
-	
+<code>
+	import numpy as np
+	from compositions import transforms
+</code>
 </pre>
