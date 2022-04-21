@@ -31,8 +31,8 @@ Usage
 		- ``transform.alr`` for forward transform S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
 		- ``transform.alrInv`` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
 
-### Example
+	## Example
 
-.. code:: python
-	>> import numpy as np
-	>> from compositions import transform
+	.. code:: python
+		>> import numpy as np
+		>> from compositions import transform
