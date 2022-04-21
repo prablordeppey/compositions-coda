@@ -15,8 +15,10 @@ Usage
 -----
 
 1. Transformations:
+
 	.. role::  raw-html(raw)
     		:format: html
+		
 	- Centered Log Ratio (clr)
 		- ```transform.clr``` for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
 		- ```transform.clrInv``` for inverse transform R :sup:`D` :raw-html:`&rarr;` S :sup:`D`.
@@ -26,8 +28,8 @@ Usage
 		- ```transform.ilrInv``` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
 
 	- Additive Log Ratio (alr)
-		- ```transform.alr``` for forward transform S<sup>D</sup> &#8594; R<sup>D-1</sup>.
-		- ```transform.alrInv``` for inverse transform R<sup>D-1</sup> &#8594; S<sup>D</sup>.
+		- ```transform.alr``` for forward transform S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
+		- ```transform.alrInv``` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
 
 ### Example
 
