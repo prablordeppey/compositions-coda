@@ -5,10 +5,10 @@ An extensive package for compositional data analysis. The major implementations 
 
 Various transformation functions along with their inverses have been implemented to aid in compositional data analysis (CoDA).
 
-Install
--------
+Installation
+------------
 
-.. code:: python
+::
 	pip install compositions-coda
 
 Usage
