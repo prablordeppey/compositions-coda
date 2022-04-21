@@ -9,13 +9,17 @@ Installation
 ------------
 
 ::
-
+	
 	pip install compositions-coda
 
 Usage
 -----
 
 1. **Transformations**:
+
+	::
+		
+		from compositions import transform
 
 	.. role::  raw-html(raw)
     		:format: html

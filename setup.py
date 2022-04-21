@@ -5,7 +5,7 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="compositions-coda",
-    version="1.0.0",
+    version="1.0.3",
     author="Ablordeppey Prosper",
     author_email="prablordeppey@gmail.com",
     description="An extensive package for Compositional Data Analysis (CoDA)",
