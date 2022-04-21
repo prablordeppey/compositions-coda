@@ -4,7 +4,7 @@ with open("README.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="compositions-coda",
+    name="compositions_coda",
     version="1.0.0",
     author="Ablordeppey Prosper",
     author_email="prablordeppey@gmail.com",
