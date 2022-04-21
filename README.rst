@@ -17,9 +17,9 @@ Usage
 
 1. **Transformations**:
 
-	::
-		
-		from compositions import transform
+::
+	
+	from compositions import transform
 
 	.. role::  raw-html(raw)
     		:format: html
