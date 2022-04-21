@@ -30,8 +30,11 @@ Usage
 	- Additive Log Ratio (alr)
 		- ``transform.alr`` for forward transform S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
 		- ``transform.alrInv`` for inverse transform R :sup:`D-1` :raw-html:`&rarr;` S :sup:`D`.
+	
+	.. role::  raw-html(raw)
+    		:format: rst
 
-	## Example
+	Example
 
 	.. code:: python
 		>> import numpy as np
