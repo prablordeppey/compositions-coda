@@ -6,7 +6,7 @@ Various transformation functions along with their inverses have been implemented
 
 ## Install
 
-<pre><code>python pip install compositions-coda</code></pre>
+<pre><code class="python"> pip install compositions-coda</code></pre>
 
 ## Usage
 
