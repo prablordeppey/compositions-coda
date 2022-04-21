@@ -12,7 +12,8 @@ Various transformation functions along with their inverses have been implemented
 
 Import ```transform```:
 
-<pre><code>from compositions import transform</code></pre>
+.. code:: python
+	from compositions import transform
 
 - Centered Log Ratio (clr)
   - ```transform.clr``` for the forward transformation S<sup>D</sup> &#8594; R<sup>D</sup>.
