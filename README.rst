@@ -3,7 +3,7 @@ Compositions
 
 An extensive package for compositional data analysis. The major implementations are presented as follows.
 
-Various transformation functions along with their inverses have been implemented to aid in compositional data analysis (CoDA).
+Various transformation functions along with their inverses have been implemented to aid compositional data analysis (CoDA).
 
 Installation
 ------------
