@@ -19,10 +19,10 @@ Usage
     		:format: html
 	- Centered Log Ratio (clr)
 		- ```transform.clr``` for the forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
-		- ```transform.clrInv``` for the inverse transform R<sup>D</sup> &#8594; S<sup>D</sup>.
+		- ```transform.clrInv``` for the inverse transform R :sup:`D` :raw-html:`&rarr;` S :sup:`D`.
 
 	- Isometric Log Ratio (ilr)
-		- ```transform.ilr``` for forward transformation S<sup>D</sup> &#8594; R<sup>D-1</sup>.
+		- ```transform.ilr``` for forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D-1`.
 		- ```transform.ilrInv``` for the inverse transform R<sup>D-1</sup> &#8594; S<sup>D</sup>.
 
 	- Additive Log Ratio (alr)
