@@ -50,7 +50,6 @@ def helmert(n):
 			main_mat[r][c] = -1
 
 	main_mat = np.vstack((first_row, main_mat))
-
 	return main_mat
 
 
@@ -71,7 +70,6 @@ def clr(X):
 
 	# clr computation
 	y = np.log(X/r_geo_mean)
-	
 	return y
 
 
