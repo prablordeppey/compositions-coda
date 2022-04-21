@@ -1,4 +1,5 @@
-# Compositions
+Compositions
+------------
 
 An extensive package for compositional data analysis. The major implementations are presented as follows.
 
