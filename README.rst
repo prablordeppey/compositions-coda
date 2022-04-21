@@ -30,9 +30,6 @@ Import ```transform```:
 
 ### Example
 
-<pre>
-<code>
-	import numpy as np
-	from compositions import transforms
-</code>
-</pre>
+.. code:: python
+	>> import numpy as np
+	>> from compositions import transforms
