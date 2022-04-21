@@ -3,12 +3,9 @@ import setuptools
 with open("README.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
-
 setuptools.setup(
     name="compositions-coda",
-    version="0.0.1",
+    version="1.0.0",
     author="Ablordeppey Prosper",
     author_email="prablordeppey@gmail.com",
     description="An extensive package for Compositional Data Analysis (CoDA)",
@@ -26,6 +23,6 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
-    install_requires=required,
+    install_requires=['numpy>=1.19.2'],
     license='MIT',
 )
