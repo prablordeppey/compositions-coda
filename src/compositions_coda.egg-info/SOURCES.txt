@@ -7,3 +7,5 @@ src/compositions_coda.egg-info/SOURCES.txt
 src/compositions_coda.egg-info/dependency_links.txt
 src/compositions_coda.egg-info/requires.txt
 src/compositions_coda.egg-info/top_level.txt
+src/transform/__init__.py
+src/transform/log_ratio.py
