@@ -15,9 +15,10 @@ Usage
 -----
 
 1. Transformations:
-
+	.. role::  raw-html(raw)
+    		:format: html
 	- Centered Log Ratio (clr)
-		- ```transform.clr``` for the forward transformation S :sup:`D` :raw-html:`&#8594;` R :sup:`D`.
+		- ```transform.clr``` for the forward transformation S :sup:`D` :raw-html:`&rarr;` R :sup:`D`.
 		- ```transform.clrInv``` for the inverse transform R<sup>D</sup> &#8594; S<sup>D</sup>.
 
 	- Isometric Log Ratio (ilr)
