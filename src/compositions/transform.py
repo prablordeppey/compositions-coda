@@ -7,6 +7,12 @@ References:
 		Isometric Logratio Transformations for Compositional Data Analysis.
 		Mathematical Geology 35, 279–300 (2003).
 		https://doi.org/10.1023/A:1023818214614
+	
+	...	Aitchison, J.
+		The Statistical Analysis of Compositional Data.
+		Journal of the Royal Statistical Society.
+		Series B (Methodological), vol. 44, no. 2, 1982, pp. 139–77,
+		http://www.jstor.org/stable/2345821. Accessed 24 Apr. 2022.
 '''
 
 def _doc_formatter(*sub):
